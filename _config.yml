@@ -1,26 +1,26 @@
 # Site Info
-title:              "The Plain"
-description:        "The Plain is a Minimalist Jekyll theme that focuses on writing matters."
-google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
-google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
+title:              "simdevlog"
+description:        "Weblog about JavaEE, software architecture, code quality, continuous integration and web technologies."
+#google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
+#google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
 
 # Author Info
-author_name:        "Heiswayi Nrird"
-author_email:       hnrird@gmail.com
-author_gravatar:    2b38b1b0e7e08b69379bd61582adf0c8 # Gravatar md5 hash
-twitter_username:   HeiswayiNrird
+author_name:        "Simon Narkprasert"
+author_email:       simdevmon@gmail.com
+author_gravatar:    9e8d30479e454073f027a03d83a829a2 # Gravatar md5 hash
+twitter_username:   simdevmon
 
 # Site Settings
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /notes/:title # Post permalink
-timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           Europe/Berlin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Site Build
-highlighter:        pygments
-#markdown:           redcarpet
-#redcarpet:
-#    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
-markdown:           kramdown
+#highlighter:        pygments
+markdown:           redcarpet
+redcarpet:
+    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
+#markdown:           kramdown
 kramdown:
     input:          GFM
 sass:
