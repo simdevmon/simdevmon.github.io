@@ -11,7 +11,11 @@ This weblog is used as a memo for myself to keep track of my thoughts and ideas.
 
 > All information is provided "AS IS" with no warrenties.
 
-Further information about me are available on the following websites.
+### Contact information
+Simon Narkprasert <br/>
+simdevmon [ AT ] gmail.com
+
+Further information about me:
 
 <a href="https://github.com/simdevmon" target="_blank" class="imagelink">
 <img src="../img/github.svg" class="socialImage"/>
