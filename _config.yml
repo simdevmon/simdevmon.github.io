@@ -13,14 +13,14 @@ twitter_username:   simdevmon
 # Site Settings
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /notes/:title # Post permalink
-timezone:           Europe/Berlin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           # Europe/Berlin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Site Build
 #highlighter:        pygments
-markdown:           redcarpet
+#markdown:           kramdown
 redcarpet:
     extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
-#markdown:           kramdown
+markdown:           kramdown
 kramdown:
     input:          GFM
 sass:
